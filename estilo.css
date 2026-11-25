@@ -1,0 +1,116 @@
+/* Tipografias del sitio, incluidas en la carpeta fuentes */
+@font-face {font-family: 'Kaushan Script';
+        src: url('fuentes/KaushanScript-Regular.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;}
+@font-face {font-family: 'Luckiest Guy';
+        src: url('fuentes/LuckiestGuy-Regular.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;}
+@font-face {font-family: 'Noto Sans Georgian';
+        src: url('fuentes/NotoSansGeorgian-Bold.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;}
+body{margin: 0;}
+div#container{background-color: #EDE8D0; 
+    width: 1440px; 
+    margin: 0 auto;}
+header {background-color: #91601D; 
+            padding: 125px 0px 0px 0px;
+            text-align: center;
+            color: #FFFFFF;}
+header h1{font-family: 'Kaushan Script', cursive;
+        font-size: 110px;
+        font-weight: 400;
+        line-height: 160px;
+        margin: 0;}
+header h2{position: relative;
+        left: -9px;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 52px;
+        margin: 17px 0px 133px 0px;
+        text-transform: uppercase;}
+header img{display: block;}
+header a{font-family: 'Kaushan Script', cursive; font-size: 2rem; color: #FFFFFF; text-decoration: none;}
+article.comunicador{background-color: #B59E80;
+        padding: 100px 0px 230px 100px;
+        height: 386px;
+        margin-bottom: 100px;
+        text-align: center;}
+article.comunicador img{float: left; margin-right: 0px;}
+a.enlace-comunicador {text-decoration: none;}
+article.comunicador h2 {font-family:'Luckiest Guy',cursive; 
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 200px 0px 0px 0px;}
+article.comunicador h3 {font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;}
+article#InfoDelComunicador{background-color: #B59E80; 
+    padding: 175px 0px 176px 176px;
+    height: 425px;}
+article#InfoDelComunicador img{float: left;}
+article#InfoDelComunicador h2,
+article#InfoDelComunicador ol{width: 602px;
+    margin: 0px 0px 0px 524px;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;}
+article#InfoDelComunicador h2{margin-bottom: 38px;}
+article#InfoDelComunicador ol{list-style: "* " inside;}
+div#video{clear: both; margin-top: 0px;}
+/* Pie de pagina: medidas tomadas del frame rectanguloRedesEquipo en Figma */
+div#container footer{position: relative;
+        height: 262px;
+        padding: 0;
+        background-color: #91601D;}
+footer p{position: absolute;
+        top: 55px;
+        left: 0;
+        width: 642px;
+        margin: 0;
+        color: #FFFFFF;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 96px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;}
+footer a{position: absolute;
+        top: 79px;}
+footer a:nth-of-type(1){left: 720px;}
+footer a:nth-of-type(2){left: 958px;}
+footer a:nth-of-type(3){left: 1196px;}
+footer img{display: block;}
+/* Seccion "Siguelo en": medidas tomadas del frame rectanguloRedesPersonales en Figma */
+div#video video{display: block;}
+nav#redes {position: relative;
+           height: 658px;
+           background-color: #B59E80;}
+nav#redes p{position: absolute;
+         top: 61px;
+         left: 0;
+         width: 100%;
+         margin: 0;
+         color: #FFFFFF;
+         font-family: 'Kaushan Script', cursive;
+         font-size: 120px;
+         font-weight: 400;
+         line-height: normal;
+         text-align: center;}
+nav#redes a{position: absolute;
+         top: 329px;
+         width: 193px;
+         height: 193px;}
+nav#redes a:nth-of-type(1){left: 182px;}
+nav#redes a:nth-of-type(2){left: 624px;}
+nav#redes a:nth-of-type(3){left: 1065px;}
+nav#redes img{display: block;
+         width: 193px;
+         height: 193px;}
